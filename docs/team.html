@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Our Team</title>
+
+    <style>
+        :root {
+            --primary: #5f9cff;
+            --bg: #f4f7fb;
+            --card: #ffffff;
+            --text-main: #2c2c2c;
+            --text-muted: #6b7280;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(180deg, #eef4ff, var(--bg));
+            color: var(--text-main);
+        }
+
+        .header {
+            padding: 36px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #6fa8ff, #7ec8ff);
+            color: #ffffff;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        .header p {
+            margin-top: 8px;
+            font-size: 14px;
+            opacity: 0.95;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 520px;
+            margin: auto;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .role {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .links {
+            margin-top: 14px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            text-decoration: none;
+            padding: 7px 14px;
+            border-radius: 18px;
+            font-size: 13px;
+            color: #ffffff;
+            background: var(--primary);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>About Our Team</h1>
+    <p>The people behind this application</p>
+</div>
+
+<div class="container">
+
+    <!-- Developer 1 -->
+    <div class="card">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/13185466?v=4" alt="Developer 1">
+        <div class="name">Suprim Gupta</div>
+        <div class="role">Lead Android Developer</div>
+        <p class="bio">
+            Responsible for app architecture, performance optimization,
+            and overall Android development.
+        </p>
+        <div class="links">
+            <a href="mailto:suprim.gupta@gmail.com">Email</a>
+            <a href="https://github.com/sprimgupta" target="_blank">GitHub</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 Snow · All rights reserved
+</div>
+
+</body>
+</html>
